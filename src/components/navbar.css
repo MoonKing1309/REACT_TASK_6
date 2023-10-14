@@ -1,8 +1,7 @@
 nav
 {
     display: flex;
-    width: 100vw;
-    max-width: 100%;
+    width:100vw;
     height: 8vh;
     position: fixed;
     border-bottom: 1px groove black;
@@ -69,8 +68,8 @@ nav li a
 .right-side-menu
 {
     right:0px;
-    transition: right 2s;
-    width: 250px;
+    transition: right 1s;
+    width: 25vw;
     height: 100vh;
     z-index: 1;
     position: absolute;
@@ -94,9 +93,9 @@ nav li a
 .right-side-menu-disabled
 {
     position: absolute;
-    right:-250px;
+    right:-25vw;
     transition: right 2s;
-    width:250px;
+    width:25vw;
     height: 100vh;
     z-index: 1;
     
@@ -121,3 +120,31 @@ hr
     z-index: 1;
     position:relative;
 }
+
+@media only screen and (max-width: 600px) {
+    .right-side-menu {
+        right:0px;
+        transition: right 2s;
+        width: 80vw;
+        height: 100vh;
+        z-index: 1;
+        position: absolute;
+        background-color: hsl(223, 20%, 17%);
+        color:white !important;
+    }
+    .right-side-menu-disabled
+{
+    position: absolute;
+    right:-80vw;
+    transition: right 2s;
+    width:0vw;
+    height: 100vh;
+    z-index: 1;
+    
+    background-color: #1d253b;
+    color:white !important;
+    
+
+}
+
+  }

@@ -14,7 +14,7 @@ function Projects()
         <div className='projects-body'>
                 <div style={{display:'flex',paddingBottom:'10vh'}}>
                     <div className='project-image'>
-                        <img src={sp} alt="SocketProgamming" width={'450px'} height={'250px'}></img>
+                        <img src={sp} alt="SocketProgamming" width={'100%'} height={'100%'}></img>
                     </div>
                     <div className='project-card'>
                         <h1 className='project-card-title'>
@@ -35,7 +35,7 @@ function Projects()
                 </div>
                 <div style={{display:'flex',paddingBottom:'10vh'}}>
                     <div className='project-image'>
-                        <img src={titanic} alt="titanic" width={'450px'} height={'250px'}></img>
+                        <img src={titanic} alt="titanic" width={'100%'} height={'100%'}></img>
                     </div>
                     <div className='project-card'>
                         <h1 className='project-card-title'>
@@ -56,7 +56,7 @@ function Projects()
                 </div>
                 <div style={{display:'flex',paddingBottom:'10vh'}}>
                     <div className='project-image'>
-                        <img src={dt} alt="dt" width={'450px'} height={'250px'}></img>
+                        <img src={dt} alt="dt" width={'100%'} height={'100%'}></img>
                     </div>
                     <div className='project-card'>
                         <h1 className='project-card-title'>
@@ -72,7 +72,7 @@ function Projects()
                 </div>
                 <div style={{display:'flex',paddingBottom:'10vh'}}>
                     <div className='project-image'>
-                        <img src={ecoli} alt="ecoli" width={'450px'} height={'250px'}></img>
+                        <img src={ecoli} alt="ecoli" width={'100%'} height={'100%'}></img>
                     </div>
                     <div className='project-card'>
                         <h1 className='project-card-title'>
@@ -86,7 +86,7 @@ function Projects()
                 </div>
                 <div style={{display:'flex',paddingBottom:'10vh'}}>
                     <div className='project-image'>
-                        <img src={wine} alt="wine" width={'450px'} height={'250px'}></img>
+                        <img src={wine} alt="wine" width={'100%'} height={'100%'}></img>
                     </div>
                     <div className='project-card'>
                         <h1 className='project-card-title'>
