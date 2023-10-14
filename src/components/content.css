@@ -12,6 +12,10 @@
     padding-bottom: 20px;
 }
 
+.moon{
+    width: 450px;
+    height: 450px;
+}
 
 
 
@@ -37,6 +41,11 @@
     .iconimage
     {
         padding-left: 15vw;
+    }
+    .moon
+    {
+        width:300px;
+        height: 300px   ;
     }
 }
 
