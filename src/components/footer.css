@@ -13,3 +13,27 @@ footer a,a:active,a:visited{
     text-decoration: none;
     color:blue;
 }
+
+@media only screen and (min-width: 800px) {
+    footer
+{
+    position: relative;
+    border-top: 2px groove black;
+    background-color: rgb(19,19,19);
+    height: 40vh;
+    color:white;
+    padding-left: 15vw;
+    width:95vw;
+}
+    
+
+}
+
+@media only screen and (max-width: 800px) {
+    .about-me
+    {
+        font-size: 10px;
+    }
+    
+
+}

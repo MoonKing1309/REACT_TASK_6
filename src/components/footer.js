@@ -9,7 +9,7 @@ function Footer()
                     <h1>
                         About me
                     </h1>
-                    <p style={{color:'gray'}}>
+                    <p style={{color:'gray'}} className="about-me">
                         Hi, my name is Sasidev which translates to MoonKing,I have been working with computers all my life and will do my best to prove to be an useful addition to your team.
 
                     </p>

@@ -11,3 +11,32 @@
     overflow-x: hidden;
     padding-bottom: 20px;
 }
+
+
+
+
+@media only screen and (min-width: 800px) {
+    
+    .center-body
+{
+    position: relative;
+    padding-top: 8vh;
+    width: 85vw;
+    height: fit-content;
+    background-color: rgb(18,21,27);
+    color:white;
+    z-index: 0;
+    padding-left: 25vw;
+    overflow-x: hidden;
+    padding-bottom: 20px;
+}
+}
+
+@media only screen and (max-width: 800px) {
+    
+    .iconimage
+    {
+        padding-left: 15vw;
+    }
+}
+

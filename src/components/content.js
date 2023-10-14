@@ -27,7 +27,7 @@ function Content()
                         <h3>Webdeveloper and Data Analyst</h3>
                     </div>
                     <div style={{ alignItems:'center',justifyItems:"center"}}>
-                        <img src={myimage} alt="myimage" style={{width:'450px',height:'450px'}}></img>
+                        <img src={myimage} alt="myimage" style={{width:'450px',height:'450px'}} className="moon"></img>
                     </div>
                 </div>
 
@@ -35,27 +35,27 @@ function Content()
                     <h1>My Webdevelopment Repertoire</h1>
                     <div style={{width:'50vw',display:'flex',flexDirection:'row',flexWrap:'wrap'}}>
                         <div>
-                            <img src={html} alt="python" style={{width:'180px'}}></img>
+                            <img className="iconimage" src={html} alt="python" style={{width:'180px'}}></img>
                             <p style={{textAlign:'center',color:'gray'}}>HTML</p>
                         </div>
                         <div>
-                            <img src={css} alt="python" style={{width:'180px'}}></img>
+                            <img className="iconimage" src={css} alt="python" style={{width:'180px'}}></img>
                             <p style={{textAlign:'center',color:'gray'}}>CSS</p>
                         </div>
                         <div>
-                            <img src={js} alt="python" style={{width:'180px'}}></img>
+                            <img className="iconimage" src={js} alt="python" style={{width:'180px'}}></img>
                             <p style={{textAlign:'center',color:'gray'}}>JavaScript</p>
                         </div>
                         <div>
-                            <img src={react} alt="python" style={{width:'180px'}}></img>
+                            <img className="iconimage" src={react} alt="python" style={{width:'180px'}}></img>
                             <p style={{textAlign:'center',color:'gray'}}>REACTJS</p>
                         </div>
                         <div>
-                            <img src={node} alt="python" style={{width:'180px'}}></img>
+                            <img className="iconimage" src={node} alt="python" style={{width:'180px'}}></img>
                             <p style={{textAlign:'center',color:'gray'}}>NODEJS</p>
                         </div>  
                         <div>
-                            <img src={mongo} alt="python" style={{width:'180px'}}></img>
+                            <img className="iconimage" src={mongo} alt="python" style={{width:'180px'}}></img>
                             <p style={{textAlign:'center',color:'gray'}}>MongoDB</p>
                         </div>
                     </div>
@@ -66,19 +66,19 @@ function Content()
                     <h1>Other Skills</h1>
                     <div style={{width:'50vw',display:'flex',flexDirection:'row',flexWrap:'wrap'}}>
                         <div>
-                            <img src={python} alt="python" style={{width:'180px'}}></img>
+                            <img className="iconimage" src={python} alt="python" style={{width:'180px'}}></img>
                             <p style={{textAlign:'center',color:'gray'}}>Python</p>
                         </div>
                         <div>
-                            <img src={cc} alt="python" style={{width:'180px'}}></img>
+                            <img className="iconimage" src={cc} alt="python" style={{width:'180px'}}></img>
                             <p style={{textAlign:'center',color:'gray'}}>C/C++</p>
                         </div>
                         <div>
-                            <img src={java} alt="python" style={{width:'180px'}}></img>
+                            <img className="iconimage" src={java} alt="python" style={{width:'180px'}}></img>
                             <p style={{textAlign:'center',color:'gray'}}>Java</p>
                         </div>
                         <div>
-                            <img src={tf} alt="python" style={{width:'180px'}}></img>
+                            <img className="iconimage" src={tf} alt="python" style={{width:'180px'}}></img>
                             <p style={{textAlign:'center',color:'gray'}}>TensorFlow</p>
                         </div>
                         
