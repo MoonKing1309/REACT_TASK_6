@@ -1,0 +1,123 @@
+nav
+{
+    display: flex;
+    width: 100vw;
+    max-width: 100%;
+    height: 8vh;
+    position: fixed;
+    border-bottom: 1px groove black;
+    z-index: 1;
+    
+}
+
+.navbar-left
+{
+    display: flex;
+    position: relative;
+    width: 80vw;
+    height: 8vh;   
+    background-color: rgb(18,21,27);
+    margin-left: 0px;
+}
+
+.navbar-right
+{
+    display: flex;
+    position: relative;
+    width: 20vw;
+    height: 8vh;
+    justify-content: flex-end;
+    background-color: rgb(18,21,27) ;
+    padding-right: 30px;
+}
+
+ul
+{
+    list-style: none;
+    
+}
+
+nav li a
+{
+    text-decoration: none;
+    color:white !important;
+    font-weight: 600;
+    font-size: large;
+}
+.navbar-left li
+{
+    display: inline;
+    padding:10px;
+}
+.navbar-left li:hover
+{
+    background-color: gray
+}
+
+.navbar-left li:hover a{
+    color:#1d253b;
+}
+
+
+.navbar-right button
+{
+    border: none;
+    outline:none;
+
+}
+
+.right-side-menu
+{
+    right:0px;
+    transition: right 2s;
+    width: 250px;
+    height: 100vh;
+    z-index: 1;
+    position: absolute;
+    background-color: hsl(223, 20%, 17%);
+    color:white !important;
+
+}
+
+.closeicon
+{
+    border: 5px solid transparent;
+    border-radius: 100%;
+    
+    cursor: pointer;
+}
+.closeicon:hover
+{
+    background-color: grey;
+}
+
+.right-side-menu-disabled
+{
+    position: absolute;
+    right:-250px;
+    transition: right 2s;
+    width:250px;
+    height: 100vh;
+    z-index: 1;
+    
+    background-color: #1d253b;
+    color:white !important;
+    
+
+}
+
+hr
+{
+    margin:0px;
+    width: 100%;
+    color:gray;
+    z-index: 1;
+}
+
+.rightSideNav
+{
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    position:relative;
+}

@@ -1,0 +1,46 @@
+.projects-body
+{
+    position: relative;
+    padding-top: 20vh;
+    border-top: 2px groove black;
+    background-color: rgb(19,19,19);
+    height: 250vh;
+    color:white;
+    padding-left: 15vw;
+    
+
+}
+
+.project-card
+{
+    background-color: white;
+    color: black;
+    height: 180px;
+    width: 400px;
+    margin-top: 2vh;
+    margin-left: -5vw;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+.project-card-title
+{
+    font-size: larger;
+    font-weight: 400;
+}
+
+.project-card-text
+{
+    color:gray;
+}
+.project-card-link
+{
+    text-decoration: underline;
+    color:blue;
+    
+}
+
+.project-card:hover
+{
+    transform: scale(1.1);
+}

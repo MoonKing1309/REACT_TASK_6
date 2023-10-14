@@ -1,0 +1,14 @@
+footer
+{
+    position: relative;
+    border-top: 2px groove black;
+    background-color: rgb(19,19,19);
+    height: 40vh;
+    color:white;
+    padding-left: 5vw;
+}
+
+footer a,a:active,a:visited{
+    text-decoration: none;
+    color:blue;
+}
