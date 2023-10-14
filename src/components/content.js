@@ -27,7 +27,7 @@ function Content()
                         <h3>Webdeveloper and Data Analyst</h3>
                     </div>
                     <div style={{ alignItems:'center',justifyItems:"center"}}>
-                        <img src={myimage} alt="myimage" style={{width:'450px',height:'450px'}} className="moon"></img>
+                        <img src={myimage} alt="myimage" className="moon"></img>
                     </div>
                 </div>
 
