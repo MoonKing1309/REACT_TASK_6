@@ -73,7 +73,7 @@ nav li a
     height: 100vh;
     z-index: 1;
     position: absolute;
-    background-color: hsl(223, 20%, 17%);
+    background-color: #1d253b;
     color:white !important;
 
 }
@@ -137,7 +137,7 @@ hr
     position: absolute;
     right:-80vw;
     transition: right 2s;
-    width:0vw;
+    width:80vw;
     height: 100vh;
     z-index: 1;
     
