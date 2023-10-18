@@ -36,27 +36,27 @@ function Content()
                     <div style={{width:'50vw',display:'flex',flexDirection:'row',flexWrap:'wrap'}}>
                         <div>
                             <img className="iconimage" src={html} alt="python" style={{width:'180px'}}></img>
-                            <p style={{textAlign:'center',color:'gray'}}>HTML</p>
+                            <p  id="icon-text" style={{textAlign:'center',color:'gray'}}>HTML</p>
                         </div>
                         <div>
                             <img className="iconimage" src={css} alt="python" style={{width:'180px'}}></img>
-                            <p style={{textAlign:'center',color:'gray'}}>CSS</p>
+                            <p  id="icon-text" style={{textAlign:'center',color:'gray'}}>CSS</p>
                         </div>
                         <div>
                             <img className="iconimage" src={js} alt="python" style={{width:'180px'}}></img>
-                            <p style={{textAlign:'center',color:'gray'}}>JavaScript</p>
+                            <p  id="icon-text" style={{textAlign:'center',color:'gray'}}>JavaScript</p>
                         </div>
                         <div>
                             <img className="iconimage" src={react} alt="python" style={{width:'180px'}}></img>
-                            <p style={{textAlign:'center',color:'gray'}}>REACTJS</p>
+                            <p  id="icon-text" style={{textAlign:'center',color:'gray'}}>REACTJS</p>
                         </div>
                         <div>
                             <img className="iconimage" src={node} alt="python" style={{width:'180px'}}></img>
-                            <p style={{textAlign:'center',color:'gray'}}>NODEJS</p>
+                            <p  id="icon-text" style={{textAlign:'center',color:'gray'}}>NODEJS</p>
                         </div>  
                         <div>
                             <img className="iconimage" src={mongo} alt="python" style={{width:'180px'}}></img>
-                            <p style={{textAlign:'center',color:'gray'}}>MongoDB</p>
+                            <p  id="icon-text" style={{textAlign:'center',color:'gray'}}>MongoDB</p>
                         </div>
                     </div>
                     
@@ -67,19 +67,19 @@ function Content()
                     <div style={{width:'50vw',display:'flex',flexDirection:'row',flexWrap:'wrap'}}>
                         <div>
                             <img className="iconimage" src={python} alt="python" style={{width:'180px'}}></img>
-                            <p style={{textAlign:'center',color:'gray'}}>Python</p>
+                            <p  id="icon-text" style={{textAlign:'center',color:'gray'}}>Python</p>
                         </div>
                         <div>
                             <img className="iconimage" src={cc} alt="python" style={{width:'180px'}}></img>
-                            <p style={{textAlign:'center',color:'gray'}}>C/C++</p>
+                            <p  id="icon-text" style={{textAlign:'center',color:'gray'}}>C/C++</p>
                         </div>
                         <div>
                             <img className="iconimage" src={java} alt="python" style={{width:'180px'}}></img>
-                            <p style={{textAlign:'center',color:'gray'}}>Java</p>
+                            <p  id="icon-text" style={{textAlign:'center',color:'gray'}}>Java</p>
                         </div>
                         <div>
                             <img className="iconimage" src={tf} alt="python" style={{width:'180px'}}></img>
-                            <p style={{textAlign:'center',color:'gray'}}>TensorFlow</p>
+                            <p  id="icon-text" style={{textAlign:'center',color:'gray'}}>TensorFlow</p>
                         </div>
                         
                     </div>
